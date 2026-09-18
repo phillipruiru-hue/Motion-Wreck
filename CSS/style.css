@@ -1,159 +1,75 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+        box-sizing:border-box;
+        margin:0;
+        padding:0;
 }
 .logo img{
-    width: 140px;
-    height: auto;
-    display: block;
-}
-
-/*============== aligning the whole nav together using the nav =======================*/
-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    
+    width: 150px;
+    height:auto;
 }
 nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 60px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 20px;
+    margin:10px 10px;
+}
+nav ul{
+    display:flex;
+    flex-direction:row;
+    list-style:none;
+    gap:30px;
+    margin:30px 0;
+}
+nav ul a{
+    text-decoration:none;
+    font-size:16px;
+    color:#2B2B2B;
+    cursor:pointer;
+    transition:all 0.3s ease-out;
+}
+nav ul a:hover{
+    color:#7A3B2E;
 }
 
-#home-link{
-    padding: 8px 8px;
-    margin: 20px;
-    background-color: black;
-    color: rgb(255, 255, 255);
-    border: 2px solid black;
-    text-decoration: none;
+.mega-space{
+    position:relative;
 }
-
-.navigation-links ul{
-
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    gap: 30px;
-}
-
-.navigation-links ul li{
-    list-style: none;
-}
-
-/*======= transition from left to right ==========*/
-
-.navigation-links ul li a{
-    text-decoration: none;
-    color: black;
-    transition: all 0.3s ease;
-    position: relative;
-    z-index: 1;
-    padding: 8px 8px;
-}
-
-/*============= the background block ===================*/
-.navigation-links ul li a::after{
-    content: '';
-  position: absolute;
-  
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  z-index: -1;
-  /* Position it completely off-screen to the left */
-  transform: scaleX(0);
-  transform-origin: left; 
-  transition: transform 0.3s ease-out;
+.mega{  
+    display:block;
 
 }
-/*======== navigation links hoover ============*/
-
-.navigation-links ul li a:hover::after{
-    transform: scaleX(1);
+.mega:hover .mega-menu{
+    display:grid;
 }
-
-.navigation-links ul li a:hover{
-    color: white;
+.mega-menu{
+    position:absolute;
+    display:none;
+    padding:20px;
+    background-color:#2B2B2B;
+    line-height:1.6;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    left:0;
+    right:0;
+    
 }
-/*=================================
-    HERO SECTION
-==================================*/
-
-#hero{
-    position: relative;
-    height: 90vh;
-    overflow: hidden;
-    z-index: 0;
+.mega-menu a{
+    color:#D9D2C9;
+    transition:all 0.1s ease;
 }
-
-.hero-image{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.mega-menu a:hover{
+    color:#E8C39E;
+    font-size:16.5px;
 }
-
-#hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right, rgba(0,0,0,0.75) 6%, rgba(0,0,0,0.1) 60%);
-    z-index: 1;
+.arrow {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 4px;
+    transition: transform 0.3s ease;
 }
-
-/*========== the text on top of the hero section img =======================*/
-
-.hero-content{
-    position: absolute;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 60px;
-    color: white;
-    max-width: 500px;
-    height: 100%;
+.mega:hover .arrow {
+    transform: rotate(180deg);
 }
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3.2rem;
-    font-weight: 800;
-    line-height: 1.15;
-    margin-bottom: 24px;
-}
-.hero-content p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 400;
-    font-size: 1.1rem;
-    color: rgba(255,255,255,0.85);
-    line-height: 1.6;
-    margin-bottom: 32px;
-    max-width: 90%;
-}
-.hero-content ul{
-    list-style: none;
-    display: grid; grid-template-columns: 1fr 1fr; gap: 12px 40px;
-    font-weight: 500;
-    margin-bottom: 32px;
-}
-
-button{
-    border: none;
-    padding: 8px 8px;
-    color: black;
-    font-weight: bold;
-}
+    
