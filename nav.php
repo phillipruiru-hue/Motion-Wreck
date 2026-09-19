@@ -1,4 +1,3 @@
-
 <nav>
     <div class="logo">
         <img src="assets/motion-wreck-logo.svg" alt="logo">
@@ -38,5 +37,68 @@
 
     </ul>
 
+    <div class="hamburger" id="hamburgerBtn">
+
+        <span></span>
+        <span></span>
+        <span></span>
+
+    </div>
+
+    <div class="mobile-overlay" id="mobileOverlay"> </div>
+
+    <div class="mobile-panel" id="mobilePanel">
+        <div class="close-btn" id="closeBtn">&times;</div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li class="mobile-mega">
+                <a href="#">Gallery <span class="arrow">˅</span></a>
+                <ul class="mobile-submenu">
+                    <li><a href="#">Weddings</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Portraits</a></li>
+                    <li><a href="#">Branding</a></li>
+                    <li><a href="#">Fashion</a></li>
+                    <li><a href="#">Video</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        
+    </div>
+
+    <script>
+        const hamburgerBtn = document.getElementById('hamburgerBtn');
+        const mobileOverlay = document.getElementById('mobileOverlay');
+        const mobilePanel = document.getElementById('mobilePanel');
+
+        hamburgerBtn.addEventListener('click', function(){
+            mobilePanel.classList.toggle('open');
+            mobileOverlay.classList.toggle('open');
+        });
+
+
+        //mobile 
+
+        const closeBtn = document.getElementById('closeBtn');
+        const mobileMega = document.querySelector('.mobile-mega');
+
+        mobileMega.addEventListener('click', function() {
+        mobileMega.classList.toggle('open');
+        });
+
+
+        // this function closes the menu on both clicking the mobile x button and taping on the dark overlay.
+        function closeMenu() {
+        mobilePanel.classList.remove('open');
+        mobileOverlay.classList.remove('open');
+        }
+
+        closeBtn.addEventListener('click', closeMenu);
+        mobileOverlay.addEventListener('click', closeMenu);
+
+    </script>
 </nav>
 

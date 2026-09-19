@@ -61,7 +61,6 @@ nav ul a:hover{
 }
 .mega-menu a:hover{
     color:#E8C39E;
-    font-size:16.5px;
 }
 .arrow {
     display: inline-block;
@@ -206,4 +205,136 @@ h1{
     background-color: rgba(232, 195, 158, 0.65);
     transform: rotate(-6deg);
     z-index: 3;
+}
+
+/*------------------ mobile flexibility ----------------------*/
+
+.primary-btn{
+    padding: 11px 26px;
+    font-size: 13px;
+}
+
+@media (max-width:768px){
+    .primary-btn{
+        padding: 8px 18px;
+        font-size: 12px;
+    }
+}
+
+/*---------- humbager spacing and positioning --------------------*/
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    nav > ul.mega-space {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    /*------ i used the > coz without it i spent 20 min debbuging until i noticed it is a must i use it-----*/
+
+    .mobile-panel > ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        gap: 20px;
+        padding: 80px 30px;
+    }
+}
+.hamburger span{
+    width:26px;
+    height:3px;
+    background-color: #2B2B2B;
+    border-radius: 2px;
+}
+
+.mobile-overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 4;
+}
+
+.mobile-panel{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 75%;
+    height: 100%;
+    background-color: #FAF7F2;
+    transform: translateX(100%);
+    transition: transform 0.4s ease;
+    z-index: 5;
+}
+
+/*---- opening -----*/
+
+.mobile-panel.open { transform: translateX(0); }
+
+.mobile-overlay.open { display: block; }
+
+/*--------------- mobile menu close btn ------------------*/
+
+.close-btn{
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+    color: #2B2B2B;
+}
+
+/*-------- the navigation list---------*/
+
+/*------ i used the > coz without it i spent 20 min debbuging until i noticed it is a must i use it (same case here.)-----*/
+    
+
+.mobile-panel > ul{
+    list-style: none;
+    padding: 60px 24px 24px;
+}
+
+.mobile-panel ul > li{
+    border-bottom: 1px solid #E3D6C8;
+}
+.mobile-panel ul > li > a{
+    display:block;
+    padding: 14px 0;
+    text-decoration: none;
+    color: #2B2B2B;
+    font-size: 15px;
+}
+
+.mobile-submenu{
+    display: none;
+    padding-left: 16px !important;
+}
+
+.mobile-submenu li{
+    border-bottom: none;
+}
+
+.mobile-submenu li a{
+    padding: 10px 0;
+    font-size: 14px;
+    color: #6b6a65;
+}
+.mobile-mega.open .mobile-submenu{
+    display: block;
+}
+.mobile-mega.open .arrow{
+    transform: rotate(180deg);
 }
