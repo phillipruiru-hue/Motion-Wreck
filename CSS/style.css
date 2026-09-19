@@ -511,3 +511,80 @@ h1{
         color: #857970;
     }
 }
+/*==================================================
+    mobile responsive first later i will do desktop 
+    many users are using mobile phones so this gets
+    much prioritised much.
+====================================================*/
+
+#gallary-preview{
+    padding: 60px 32px;
+    text-align: center;
+}
+
+.section-heading.eyebrow{
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    color: #7A3B2E;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.section-heading h2{
+    font-family: 'Playfair Display', serif;
+    color: #3A2A22;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.gallary-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.gallary-card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 6px;
+    display: block;
+}
+
+.card-info{
+    text-align: left;
+    padding: 14px 4px;
+}
+
+.card-info h3{
+    font-family: 'Playfair Display', serif;
+    color: #3A2A22;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.card-info a {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 13px;
+    color: #7A3B2E;
+    text-decoration: none;
+}
+
+/*-----------the cta to the gallary page ------------------*/
+
+.view-all {
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 13px;
+    color: #7A3B2E;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.view-all:hover {
+    border-color: #7A3B2E;
+}

@@ -43,7 +43,69 @@
 
             </section>
 
+            <section id="gallary-preview">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">Explore the work</p>
+                    <h2>Find the story that feels like yours.</h2>
+                    <p>A small selection of the moments we love to capture.</p>
+
+                </div>
+
+                <div class="gallary-cards">
+
+                    <div class="gallary-card">
+
+                        <img src="assets/wedding.jpg" alt="Wedding Picture">
+
+                        <div class="card-info">
+
+                            <h3>Wedding</h3>
+                            <p>The day, exactly as it felt</p>
+
+                            <a href="#">Explore the Gallery →</a>
+
+                        </div>
+                    </div>
+
+                    <div class="gallary-card">
+
+                        <img src="assets/baby.png" alt="Pregnant woman - Baby Bump">
+
+                        <div class="card-info">
+
+                            <h3>Baby Bump</h3>
+                            <p>Softly held, beautifully remembered</p>
+
+                            <a href="#">Explore the Gallery →</a>
+
+                        </div>
+                    </div>
+
+                    <div class="gallary-card">
+
+                        <img src="assets/happy.jpg" alt="Family celebrating a birthday">
+
+                        <div class="card-info">
+
+                            <h3>Birthdays</h3>
+                            <p>Joy worth keeping close</p>
+
+                            <a href="#">Explore the Gallery →</a>
+
+                        </div>
+
+                    </div>
+
+                    <a href="galleries.php" class="view-all">View All Categories →</a>
+
+                </div>
+
+            </section>
+
             <script>
+
                 const slides = document.querySelectorAll('.slide-show img');
                 let currentIndex = 0;
 
@@ -52,6 +114,7 @@
                     currentIndex = (currentIndex + 1) % slides.length;
                     slides[currentIndex].classList.add('active');
                 }, 4000);
+
             </script>
 
         </main>
