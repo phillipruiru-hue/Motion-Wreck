@@ -43,7 +43,7 @@
 
             </section>
 
-            <section id="gallary-preview">
+            <section id="gallery-preview">
 
                 <div class="section-heading">
 
@@ -53,9 +53,9 @@
 
                 </div>
 
-                <div class="gallary-cards">
+                <div class="gallery-cards">
 
-                    <div class="gallary-card">
+                    <div class="gallery-card">
 
                         <img src="assets/wedding.jpg" alt="Wedding Picture">
 
@@ -69,7 +69,7 @@
                         </div>
                     </div>
 
-                    <div class="gallary-card">
+                    <div class="gallery-card">
 
                         <img src="assets/baby.png" alt="Pregnant woman - Baby Bump">
 
@@ -83,7 +83,7 @@
                         </div>
                     </div>
 
-                    <div class="gallary-card">
+                    <div class="gallery-card">
 
                         <img src="assets/happy.jpg" alt="Family celebrating a birthday">
 
@@ -97,10 +97,10 @@
                         </div>
 
                     </div>
-
-                    <a href="galleries.php" class="view-all">View All Categories →</a>
-
+                    
                 </div>
+
+                <a href="galleries.php" class="view-all">View All Categories →</a>
 
             </section>
 
