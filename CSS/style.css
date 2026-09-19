@@ -631,3 +631,63 @@ h1{
         color: #E8C39E;
     }
 }
+
+/*----- the testimonial css part ------*/
+
+#testimonials {
+    padding: 60px 32px;
+    text-align: center;
+    background-color: #FAF7F2;
+}
+
+.testimonial-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.testimonial-card {
+    width: 100%;
+    max-width: 420px;
+    background-color: #FFFFFF;
+    border: 1px solid #E3D6C8;
+    border-radius: 8px;
+    padding: 28px 24px;
+}
+
+.quote-mark {
+    font-family: 'Playfair Display', serif;
+    color: #E8C39E;
+    font-size: 32px;
+    line-height: 1;
+    margin: 0 0 8px;
+}
+
+.quote-text {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #4a4944;
+    margin: 0 0 16px;
+}
+
+.quote-author {
+    font-size: 13px;
+    font-weight: 500;
+    color: #7A3B2E;
+    margin: 0;
+    letter-spacing: 0.2px;
+}
+
+@media (min-width: 768px) {
+    .testimonial-cards {
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: center;
+    }
+
+    .testimonial-card {
+        flex: 1;
+    }
+}

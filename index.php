@@ -43,6 +43,8 @@
 
             </section>
 
+            <!-- Homepage gallery -->
+
             <section id="gallery-preview">
 
                 <div class="section-heading">
@@ -97,10 +99,52 @@
                         </div>
 
                     </div>
-                    
+
                 </div>
 
                 <a href="galleries.php" class="view-all">View All Categories →</a>
+
+            </section>
+
+
+            <!-- Homepage Testimonials  -->
+
+            <section id="testimonials">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">What Clients Say</p>
+                    <h2>Moments they still talk about</h2>
+
+                </div>
+
+                <div class="testimonial-cards">
+
+                    <div class="testimonial-card">
+
+                        <p class="quote-mark">"</p>
+                        <p class="quote-text">They made us feel so at ease — the photos still bring us right back to that day.</p>
+                        <p class="quote-author">— Amina & David, Wedding</p>
+
+                    </div>
+
+                    <div class="testimonial-card">
+
+                        <p class="quote-mark">"</p>
+                        <p class="quote-text">Gentle, patient, and the maternity photos turned out more beautiful than I imagined.</p>
+                        <p class="quote-author">— Wanjiru M., Baby Bump</p>
+
+                    </div>
+
+                    <div class="testimonial-card">
+
+                        <p class="quote-mark">"</p>
+                        <p class="quote-text">Every candid moment from the party was captured — even the ones we missed ourselves.</p>
+                        <p class="quote-author">— The Otieno Family, Birthday</p>
+
+                    </div>
+
+                </div>
 
             </section>
 
