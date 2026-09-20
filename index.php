@@ -148,7 +148,43 @@
 
             </section>
 
+            <!-- vedio player section only plays on click i will place a poster but when its clicked thats when it can now start playing  -->
+
+            <section id="video-reel">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">In Motion</p>
+                    <h2>See it come alive</h2>
+
+                </div>
+
+                <div class="video-wrapper" id="videoWrapper">
+
+                    <video id="reelVideo" poster="assets/video-poster.jpg">
+
+                        <source src="assets/highlight-reel.mp4" type="video/mp4">
+
+                    </video>
+
+                    <div class="play-button" id="playButton">▶</div>
+
+                </div>
+
+            </section>
+
             <script>
+
+                //vedio js code
+
+                const playButton = document.getElementById('playButton');
+                const reelVideo = document.getElementById('reelVideo');
+
+                playButton.addEventListener('click', function() {
+                    reelVideo.controls = true;
+                    reelVideo.play();
+                    playButton.classList.add('hidden');
+                });
 
                 const slides = document.querySelectorAll('.slide-show img');
                 let currentIndex = 0;
