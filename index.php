@@ -182,7 +182,7 @@
                     <img src="assets/team-photo.jpg" alt="Motion Wreck team at a shoot">
 
                 </div>
-                
+
                 <div class="about-text">
 
                     <p class="eyebrow">Who We Are</p>
@@ -194,6 +194,58 @@
                 </div>
 
             </section>
+
+            <section id="final-cta">
+
+                <h2>Your story deserves more than a phone gallery.</h2>
+
+                <div class="cta-buttons">
+
+                    <a href="#" class="primary-btn btn">Book Us Now</a>
+                    <a href="packages.php" class="view-all">View Packages →</a>
+
+                </div>
+
+            </section>
+
+            <footer>
+
+                <div class="footer-locations">
+                    <h3>Locations</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Location</th>
+                                <th>Building</th>
+                                <th>Room</th>
+                                <th>Phone</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Kimathi Street, Nairobi</td>
+                                <td>Older Mutuakis Building</td>
+                                <td>9th Floor, Room 910</td>
+                                <td>0710636052</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+
+                    <div class="footer-social">
+                        <h3>Follow Us</h3>
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">TikTok</a>
+                    </div>
+
+                </div>
+
+                
+
+                <p class="copyright">&copy; 2026 Motion Wreck Studio. All rights reserved.</p>
+
+            </footer>
 
             <script>
 
