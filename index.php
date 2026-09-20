@@ -173,6 +173,28 @@
 
             </section>
 
+            <!-- about us teaser -->
+
+            <section id="about-teaser">
+
+                <div class="about-photo">
+
+                    <img src="assets/team-photo.jpg" alt="Motion Wreck team at a shoot">
+
+                </div>
+                
+                <div class="about-text">
+
+                    <p class="eyebrow">Who We Are</p>
+                    <h2>Why we do this</h2>
+                    <p>We don't just show up with a camera — we study how you move, how you laugh, what makes a moment feel like *you*. Every shoot starts with a conversation, not a checklist.</p>
+
+                    <a href="about.php" class="view-all">Learn More About Us →</a>
+
+                </div>
+
+            </section>
+
             <script>
 
                 //vedio js code

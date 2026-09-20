@@ -746,3 +746,75 @@ h1{
 .hidden {
     display: none;
 }
+
+/*----- About Teaser ------*/
+
+#about-teaser {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 60px 32px;
+}
+
+.about-photo img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.about-text {
+    text-align: left;
+}
+
+.about-text h2 {
+    font-family: 'Playfair Display', serif;
+    color: #3A2A22;
+    font-size: 26px;
+    margin-bottom: 14px;
+}
+
+.about-text p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #4a4944;
+    margin-bottom: 20px;
+    max-width: 480px;
+}
+
+@media (min-width: 768px) {
+    #about-teaser {
+        flex-direction: row;
+        align-items: center;
+        gap: 56px;
+        padding: 80px 32px;
+    }
+
+    .about-photo,
+    .about-text {
+        flex: 1;
+    }
+
+    .about-photo img {
+        max-width: 420px;
+    }
+}
+
+/*----------- small pin detail --------------*/
+.about-photo {
+    position: relative;
+}
+
+.about-photo::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 24px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #7A3B2E;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.35);
+    z-index: 2;
+}
