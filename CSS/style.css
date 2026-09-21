@@ -1,8 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 *{
     box-sizing:border-box;
     margin:0;
     padding:0;
 }
+
+
 .logo img{
     width: 150px;
     height:auto;
@@ -572,6 +578,23 @@ h1{
     text-decoration: none;
 }
 
+/*==================================
+inside galleries.php should be using grid so that i can
+overide the flex rule ."i will only add an 's' to the gallery-... class"
+=====================================*/
+
+.gallerys-cards {
+    display: grid;
+    grid-template-columns:repeat( 2, 1fr);  /* mobile default */
+    gap: 24px;
+    margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+    .gallerys-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 /*-----------the cta to the gallary page ------------------*/
 
 .view-all {

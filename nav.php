@@ -5,7 +5,7 @@
 
     <ul class="mega-space">
         <li>
-            <a href="#" id="home-link">Motion Wreck Studio</a>
+            <a href="index.php" id="home-link">Motion Wreck Studio</a>
         </li>
 
         <li>
@@ -51,7 +51,7 @@
         <div class="close-btn" id="closeBtn">&times;</div>
 
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li><a href="#">About Us</a></li>
             <li class="mobile-mega">
                 <a href="#">Gallery <span class="arrow">˅</span></a>
