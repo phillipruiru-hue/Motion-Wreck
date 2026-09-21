@@ -28,9 +28,9 @@
             <img src="assets/wedding-photos/wedding-6.jpg" alt="men wedding photo poses" class="grid-photo">
             <img src="assets/wedding-photos/wedding-5.jpg" alt="happy men at a wedding" class="grid-photo">
 
-        
-
     </section>
+
+    <div class="nav-back"><a href="galleries.php" class="view-all">Back to all categories →</a></div>
     
 </body>
 </html>

@@ -148,6 +148,8 @@
 
             </section>
 
+            <div class="nav-back"><a href="galleries.php" class="view-all">Back to Home Page →</a></div>
+
     </main>
     
 </body>

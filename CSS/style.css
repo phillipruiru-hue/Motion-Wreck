@@ -992,3 +992,11 @@ footer {
         padding: 40px 32px 80px;
     }
 }
+
+/* navigation to go back */
+.nav-back{
+    justify-content: center;
+    align-items:center ;
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
