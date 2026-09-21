@@ -960,3 +960,12 @@ footer {
         margin-top: 40px;
     }
 }
+
+/*-----------------------------------------------
+    hardcoded wedding page with all the photo grids
+-------------------------------------------------*/
+
+#section-heading{
+    padding: 60px 32px;
+    text-align: center;     
+}

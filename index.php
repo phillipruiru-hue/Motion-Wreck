@@ -66,7 +66,7 @@
                             <h3>Wedding</h3>
                             <p>The day, exactly as it felt</p>
 
-                            <a href="#">Explore the Gallery →</a>
+                            <a href="wedding.php">Explore the Gallery →</a>
 
                         </div>
                     </div>
