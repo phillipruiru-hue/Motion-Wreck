@@ -17,11 +17,18 @@
 
     </section>
 
-    <section class="gallery-cards">
+    <section id="photo-grid">
 
-        <div class="photo-grid-display">
-            
-        </div>
+        
+
+            <img src="assets/wedding-photos/wedding-1.jpg" alt="Wedding girl portrait" class="grid-photo">
+            <img src="assets/wedding-photos/wedding-2.jpg" alt="men dancing in wedding dances" class="grid-photo">
+            <img src="assets/wedding-photos/wedding-3.jpg" alt="kenyan traditional weding" class="grid-photo">
+            <img src="assets/wedding-photos/wedding-4.jpg" alt="kenyan traditional wedding ceremony" class="grid-photo">
+            <img src="assets/wedding-photos/wedding-6.jpg" alt="men wedding photo poses" class="grid-photo">
+            <img src="assets/wedding-photos/wedding-5.jpg" alt="happy men at a wedding" class="grid-photo">
+
+        
 
     </section>
     
