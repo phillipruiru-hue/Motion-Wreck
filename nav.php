@@ -56,7 +56,7 @@
             <li class="mobile-mega">
                 <a href="#">Gallery <span class="arrow">˅</span></a>
                 <ul class="mobile-submenu">
-                    <li><a href="#">Weddings</a></li>
+                    <li><a href="wedding.php">Weddings</a></li>
                     <li><a href="#">Events</a></li>
                     <li><a href="#">Portraits</a></li>
                     <li><a href="#">Branding</a></li>
