@@ -10,6 +10,10 @@
 </head>
 <body>
 
+    <?php
+        include "nav.php";
+    ?>
+
     <section id="section-heading">
 
         <p class="eyebrow">Weddings</p>
