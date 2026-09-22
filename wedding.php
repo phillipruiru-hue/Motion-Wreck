@@ -28,6 +28,13 @@
             <img src="assets/wedding-photos/wedding-6.jpg" alt="men wedding photo poses" class="grid-photo">
             <img src="assets/wedding-photos/wedding-5.jpg" alt="happy men at a wedding" class="grid-photo">
 
+            <div class="lightbox" id="lightbox">
+                <span class="lightbox-close" id="lightboxClose">&times;</span>
+                <span class="lightbox-prev" id="lightboxPrev">‹</span>
+                <img src="" alt="" class="lightbox-img" id="lightboxImg">
+                <span class="lightbox-next" id="lightboxNext">›</span>
+            </div>
+
     </section>
 
     <div class="nav-back"><a href="galleries.php" class="view-all">Back to all categories →</a></div>
