@@ -9,7 +9,7 @@
         </li>
 
         <li>
-            <a href="#">About Us</a>
+            <a href="about.php">About Us</a>
         </li>
 
         <li class="mega">
