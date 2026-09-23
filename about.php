@@ -85,7 +85,42 @@
         </div>
 
     </section>
+
+    <section class="equipments">
+
+        <h2>WHAT WE SHOOT WITH</h2>
+
+        <div class="equip-list">
+
+            <div class="item">
+
+                <span>Full-Frame Cameras</span>
+
+            </div>
+
+            <div class="item">
+
+                <span>Prime Lenses</span>
+
+            </div>
+
+            <div class="item">
+
+                <span>Studio Lighting</span>
+
+            </div>
+
+            <div class="item">
+
+                <span>Cinema-Grade Video Rigs</span>
+
+            </div>
+
+        </div>
+
+       
+    </section>
     
-    
+
 </body>
 </html>
