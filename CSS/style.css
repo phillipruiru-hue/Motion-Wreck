@@ -1090,3 +1090,70 @@ footer {
     overflow: hidden;
     object-fit: cover;
 }
+
+/*  working on the number  */
+
+.space{
+    padding-top:20px ;
+}
+
+.step-number{
+    background-color: #7A3B2E;
+    border: none;
+    border-radius: 20px;
+    padding: 4px 10px;
+    color: white;
+}
+
+.work-cards{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.work-card{
+    border: 1px solid #7A3B2E;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+
+    .work-cards{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+/*  team slider  */
+
+.team-slider{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 70px;
+    justify-content: center;
+}
+
+.team-card active , .team-card img{
+    max-width: 190px;
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 80px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+
+    .team-slider{
+        display: flex;
+        flex-direction: row;
+    }
+
+}

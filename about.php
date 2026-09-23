@@ -28,14 +28,14 @@
 
     </section>
 
-    <section class="our-story">
+    <section class="section-heading">
 
         <h2>Our Story</h2>
         <p>We started Motion Wreck because we believed Nairobi's biggest moments deserved more than a rushed shoot. What began as one camera and a lot of ambition has grown into a small team that still treats every client like the first.</p>
 
     </section>
 
-    <section class="we-work">
+    <section class="section-heading">
 
         <h2>HOW WE WORK</h2>
 
@@ -43,45 +43,45 @@
 
             <div class="work-card">
                 <span class="step-number">1</span>
-                <h3>We talk it through</h3>
+                <h3 class="space">We talk it through</h3>
             </div>
 
             <div class="work-card">
                 <span class="step-number">2</span>
-                <h3>We plan the day</h3>
+                <h3 class="space">We plan the day</h3>
             </div>
 
             <div class="work-card">
 
                 <span class="step-number">3</span>
-                <h3>We shoot & capture</h3>
+                <h3 class="space">We shoot & capture</h3>
             </div>
 
             <div class="work-card">
 
                 <span class="step-number">4</span>
-                <h3>You get your gallery</h3>
+                <h3 class="space">You get your gallery</h3>
             </div>
 
         </div>
 
     </section>
 
-    <section class="meet-team">
+    <section class="section-heading">
 
         <h2>MEET THE TEAM</h2>
 
         <div class="team-slider">
 
             <div class="team-card active">
-                <img src="assets/team/kevin.jpg" alt="Kevin M.">
+                <img src="assets/team/kevin.png" alt="Kevin M.">
                 <p>Kevin M.</p>
                 <p class="role">Lead Photographer</p>
             </div>
 
             <div class="team-card">
-                <img src="assets/team/faith.jpg" alt="Faith W.">
-                <p>Faith W.</p>
+                <img src="assets/team/james.png" alt="James W.">
+                <p>James W.</p>
                 <p class="role">Videographer</p>
             </div>
 
@@ -95,7 +95,7 @@
 
     </section>
 
-    <section class="equipments">
+    <section class="section-heading">
 
         <h2>WHAT WE SHOOT WITH</h2>
 
