@@ -12,7 +12,7 @@
 <body>
 
     <?php   include 'nav.php' ; ?>
-
+<main>
     <section id="section-heading">
 
     <p class="eyebrow">WHO ARE WE</p>
@@ -22,7 +22,7 @@
 
     <div class="about-img">
 
-        <img src="assets/team-photo.jpg" alt="the teams detailed information.">
+        <img src="assets/team-photo.jpg" alt="the teams detailed information." >
 
     </div>
 
@@ -74,19 +74,19 @@
         <div class="team-slider">
 
             <div class="team-card active">
-                <img src="assets/team/kevin.png" alt="Kevin M.">
+                <img src="assets/team/kevin.png" alt="Kevin M." class="grid-photo">
                 <p>Kevin M.</p>
                 <p class="role">Lead Photographer</p>
             </div>
 
             <div class="team-card">
-                <img src="assets/team/james.png" alt="James W.">
+                <img src="assets/team/james.png" alt="James W." class="grid-photo">
                 <p>James W.</p>
                 <p class="role">Videographer</p>
             </div>
 
             <div class="team-card">
-                <img src="assets/team/brian.jpg" alt="Brian O.">
+                <img src="assets/team/brian.jpg" alt="Brian O." class="grid-photo">
                 <p>Brian O.</p>
                 <p class="role">Creative Director</p>
             </div>
@@ -127,9 +127,19 @@
 
         </div>
 
-       
-    </section>
-    
+       <div class="lightbox" id="lightbox">
+            <span class="lightbox-close" id="lightboxClose">&times;</span>
+            <span class="lightbox-prev" id="lightboxPrev">‹</span>
+            <img src="" alt="" class="lightbox-img" id="lightboxImg" class="grid-photo">
+            <span class="lightbox-next" id="lightboxNext">›</span>
+        </div>
 
+    </section>
+
+    <?php include 'footer.php';?>
+    
+</main>
+
+<script src="JS/lightbox.js"></script>
 </body>
 </html>

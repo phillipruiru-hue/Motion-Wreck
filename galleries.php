@@ -150,6 +150,8 @@
 
             <div class="nav-back"><a href="galleries.php" class="view-all">Back to Home Page →</a></div>
 
+            <?php include 'footer.php';?>
+
     </main>
     
 </body>

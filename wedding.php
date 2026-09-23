@@ -9,6 +9,7 @@
 
 </head>
 <body>
+<main>
 
     <?php
         include "nav.php";
@@ -42,6 +43,10 @@
     </section>
 
     <div class="nav-back"><a href="galleries.php" class="view-all">Back to all categories →</a></div>
-    
+
+    <?php include 'footer.php';?>
+</main>
+
+<script src="JS/lightbox.js"></script>
 </body>
 </html>
