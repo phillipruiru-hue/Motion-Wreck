@@ -1137,6 +1137,7 @@ footer {
     grid-template-columns: repeat(1, 1fr);
     gap: 70px;
     justify-content: center;
+    margin-top: 60px;
 }
 
 .team-card active , .team-card img{
@@ -1152,6 +1153,34 @@ footer {
 @media (min-width: 768px) {
 
     .team-slider{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+/*  last section on page  */
+
+.equip-list{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 70px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.item{
+    background-color: #2B2B2B;
+    color: #D9D2C9;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+
+}
+
+@media (min-width: 768px) {
+
+    .equip-list{
         display: flex;
         flex-direction: row;
     }
