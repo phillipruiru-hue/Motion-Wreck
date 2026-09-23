@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About us page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Inter:wght@400;500&display=swap">
     <link rel="stylesheet" href="CSS/style.css">
 
 </head>
 <body>
 
+    <?php   include 'nav.php' ; ?>
+
     <section id="section-heading">
 
-    <p class="eyebrow-about">WHO ARE WE</p>
+    <p class="eyebrow">WHO ARE WE</p>
     <h1>The People beheind the lens</h1>
 
     <p class="short">Three people, one shared belief — every moment deserves to be told honestly.</p>
@@ -39,18 +42,24 @@
         <div class="work-cards">
 
             <div class="work-card">
+                <span class="step-number">1</span>
                 <h3>We talk it through</h3>
             </div>
 
             <div class="work-card">
+                <span class="step-number">2</span>
                 <h3>We plan the day</h3>
             </div>
 
             <div class="work-card">
+
+                <span class="step-number">3</span>
                 <h3>We shoot & capture</h3>
             </div>
 
             <div class="work-card">
+
+                <span class="step-number">4</span>
                 <h3>You get your gallery</h3>
             </div>
 
