@@ -71,7 +71,23 @@
 
             </div>
 
-            
+        </section>
+
+        <section class="gowns-cards">
+
+            <article>
+
+                <img src="assets/wedding.jpg" alt="Wedding Picture">
+
+                <div class="info">
+
+                    <h3>official suit</h3>
+                    <span>Size: [m,l,xl]</span>
+                    <p>KSH 5500</p>
+
+                </div>
+
+            </article>
 
         </section>
 
