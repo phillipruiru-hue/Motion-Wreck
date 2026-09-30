@@ -32,7 +32,7 @@
         </li>
 
         <li>
-            <a href="#">Contact Us</a>
+            <a href="contact.php">Contact Us</a>
         </li>
 
     </ul>
@@ -52,7 +52,7 @@
 
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="about.php">About Us</a></li>
             <li class="mobile-mega">
                 <a href="#">Gallery <span class="arrow">˅</span></a>
                 <ul class="mobile-submenu">
