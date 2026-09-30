@@ -739,6 +739,15 @@ overide the flex rule ."i will only add an 's' to the gallery-... class"
     object-fit: cover;
 }
 
+.video-wrappers {
+    position: relative;
+    max-width: 600px;
+    margin: 40px auto 0;
+    border-radius: 8px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
 .video-wrapper video {
     width: 100%;
     display: block;
@@ -1186,3 +1195,91 @@ footer {
     }
 
 }
+
+.split{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    min-height: 100vh;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+ .body{
+    margin-top: 60px;
+ }
+  /* The big rounded card */
+  .contact-form {
+    width: min(440px, 92vw);
+    padding: 32px 36px 36px;
+    background: #fff;                 
+    border: 2px solid #111;
+    border-radius: 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+ 
+
+  .field { position: relative; }
+ 
+  .field label {
+    position: absolute;
+    top: -10px;
+    left: 24px;
+    padding: 0 6px;
+    background: #fff;                 
+    font-size: 14px;
+    color: #777;
+  }
+ 
+  .field input,
+  .field select,
+  .field textarea {
+    width: 100%;
+    padding: 14px 20px;
+    font: inherit;
+    font-size: 16px;
+    color: #2B2B2B;
+    background: transparent;
+    border: 1px solid #7A3B2E;
+    border-radius: 24px;
+  }
+ 
+  .field textarea {
+    min-height: 120px;
+    resize: vertical;
+    border-radius: 28px;
+  }
+ 
+  /* Custom chevron for the dropdown */
+  .field select {
+    appearance: none;
+    padding-right: 44px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='8' fill='none' stroke='%23777' stroke-width='1.6'%3E%3Cpath d='M1 1l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+  }
+ 
+  .field input:focus,
+  .field select:focus,
+  .field textarea:focus {
+    outline: 1px solid #5E2D22;
+    outline-offset: 2px;
+  }
+ 
+  /* Pill button, centred */
+  .contact-form button {
+    align-self: center;
+    min-height: 46px;
+    padding: 0 44px;
+    font: inherit;
+    font-size: 16px;
+    color: #fff;
+    background: #7A3B2E;
+    border: 1px solid #3A2A22;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+ 
+  .contact-form button:hover { background: #111; color: #fff; }
