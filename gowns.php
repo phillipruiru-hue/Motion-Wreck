@@ -45,6 +45,30 @@
 
         </section>
 
+        <section id="filter-mobile">
+
+            <div class="gowns-mobile-filter">
+
+                <select name="filter-mobile" id="filter-mobile" required>
+
+                    <option>All gowns</option>
+                    <option>Wedding</option>
+                    <option>Family Shoots</option>
+                    <option>Event</option>
+                    <option>Corporates</option>
+                    <option>Passport</option>
+                    <option>Birthday</option>
+                    <option>Baby Bump</option>
+                    <option>Graduation</option>
+            
+                </select>
+
+            </div>
+
+            
+
+        </section>
+
     </main>
     
 </body>

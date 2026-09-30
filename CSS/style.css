@@ -1289,10 +1289,17 @@ footer {
 =========================================*/
 
 #filter{
-    display:grid;
-    grid-template-columns: repeat(1,2fr);
-    gap: 60px;
-    
+    display:none;
+}
+
+#filter-mobile{
+    display:flex ;
+    padding: 10px 10px;
+    font-size: 18px;
+    outline: none;
+    background-color: #FAF7F2;
+    color: #2B2B2B;
+    font-family: 'Inter', sans-serif;
 }
 
 .gowns-t{
@@ -1323,4 +1330,18 @@ footer {
     border-radius: 8px;
     background-color: #fff;
     text-align: center;
+}
+
+
+
+@media (min-width: 768px) {
+    #filter{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    #filter-mobile{
+        display: none;
+    }
 }
