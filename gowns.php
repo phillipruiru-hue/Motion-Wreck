@@ -33,9 +33,15 @@
                 <span>Family Shoots</span>
                 <span>Graduation</span>
 
+            </div>
+
+            <div class="size-t">
+
+                <span>male</span>
+                <span>female</span>
+                <span>child</span>
 
             </div>
-            <div class="size-t"></div>
 
         </section>
 

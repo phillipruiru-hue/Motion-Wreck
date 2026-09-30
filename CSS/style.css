@@ -1283,3 +1283,44 @@ footer {
   }
  
   .contact-form button:hover { background: #111; color: #fff; }
+
+/*========================================
+  the gowns page hiring e-comerce style
+=========================================*/
+
+#filter{
+    display:grid;
+    grid-template-columns: repeat(1,2fr);
+    gap: 60px;
+    
+}
+
+.gowns-t{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(9,8fr);
+    text-align: center;
+    justify-content: center;
+}
+
+.gowns-t span{
+    padding: 4px 4px;
+    border: 1px solid #7A3B2E;
+    border-radius: 20px;
+    align-items: center;
+    
+}
+
+.size-t{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 10px;
+}
+
+.size-t span{
+    padding: 8px 8px;
+    border: 1px solid #E8C39E;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+}
