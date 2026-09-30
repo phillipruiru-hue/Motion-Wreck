@@ -1292,7 +1292,7 @@ footer {
     display:none;
 }
 
-#filter-mobile{
+#filter-mobile {
     display:flex ;
     padding: 10px 10px;
     font-size: 18px;
@@ -1300,6 +1300,14 @@ footer {
     background-color: #FAF7F2;
     color: #2B2B2B;
     font-family: 'Inter', sans-serif;
+}
+
+.gowns-mobile-filter{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items: center;
+    margin: 40px;
 }
 
 .gowns-t{
