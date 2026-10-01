@@ -74,7 +74,6 @@
         </section>
 
         <section class="gowns-cards">
-
             <article>
 
                 <img src="assets/wedding.jpg" alt="Wedding Picture">
@@ -87,16 +86,76 @@
 
                         <p>Size:</p>
 
-                        <span>S</span>
-                        <span class="active" >M</span>
-                        <span>L</span>
-                        <span>XL</span>
+                        <div class="align">
+                            <span>S</span>
+                            <span class="actives" >M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
 
                     </div>
 
-                    <p>KSH 5500</p>
+                    <p class="price"> <span class="kes">KSH</span> 5500</p>
 
-                    <a href="#" > Check date →</a>
+                    <a href="#" class="calender" > Book Now </a>
+
+                </div>
+
+            </article>
+
+                        <article>
+
+                <img src="assets/wedding.jpg" alt="Wedding Picture">
+
+                <div class="info">
+
+                    <h1>Red Dress</h1>
+
+                    <div class="size">
+
+                        <p>Size:</p>
+
+                        <div class="align">
+                            <span>S</span>
+                            <span class="actives" >M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+
+                    </div>
+
+                    <p class="price"> <span class="kes">KSH</span> 5500</p>
+
+                    <a href="#" class="calender" > Book Now </a>
+
+                </div>
+
+            </article>
+
+                        <article>
+
+                <img src="assets/wedding.jpg" alt="Wedding Picture">
+
+                <div class="info">
+
+                    <h1>Red Dress</h1>
+
+                    <div class="size">
+
+                        <p>Size:</p>
+
+                        <div class="align">
+                            <span>S</span>
+                            <span class="actives" >M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+
+                    </div>
+
+                    <p class="price"> <span class="kes">KSH</span> 5500</p>
+
+                    <a href="#" class="calender" > Book Now </a>
 
                 </div>
 
