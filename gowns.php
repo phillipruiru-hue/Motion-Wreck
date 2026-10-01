@@ -81,9 +81,22 @@
 
                 <div class="info">
 
-                    <h3>official suit</h3>
-                    <span>Size: [m,l,xl]</span>
+                    <h1>Red Dress</h1>
+
+                    <div class="size">
+
+                        <p>Size:</p>
+
+                        <span>S</span>
+                        <span class="active" >M</span>
+                        <span>L</span>
+                        <span>XL</span>
+
+                    </div>
+
                     <p>KSH 5500</p>
+
+                    <a href="#" > Check date →</a>
 
                 </div>
 
