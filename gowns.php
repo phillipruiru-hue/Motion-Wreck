@@ -87,6 +87,9 @@
 
         <section class="gowns-cards">
 
+
+            <!-- + corporates card -->
+
             <article data-category="corporates" data-gender="male">
 
                 <div class="card-media">
@@ -103,7 +106,42 @@
 
             </article>
 
-            <!-- + another card -->
+
+            
+            <article data-category="corporates" data-gender="female">
+
+                <div class="card-media">
+                    <span class="filter-tag">Corporates</span>
+                    <img src="assets/gown-cards/navy-flare.png" alt="N.blue Flare">
+                </div>
+
+                <div class="info">
+                    <h3 class="card-h3">N.blue Flare</h3>
+                    <p class="men-size">size [32-48]</p>
+                    <p class="price"><span class="kes">KSH</span> 3900</p>
+                    <a href="#" class="calender">Check date</a>
+                </div>
+
+            </article>
+
+
+            <article data-category="corporates" data-gender="female">
+
+                <div class="card-media">
+                    <span class="filter-tag">Corporates</span>
+                    <img src="assets/gown-cards/feminine.png" alt="Official Black Suit for wemen">
+                </div>
+
+                <div class="info">
+                    <h3 class="card-h3">Official Black Suit</h3>
+                    <p class="men-size">size [27-36]</p>
+                    <p class="price"><span class="kes">KSH</span> 5700</p>
+                    <a href="#" class="calender">Check date</a>
+                </div>
+
+            </article>
+
+            <!-- + wedding card -->
 
             <article data-category="wedding" data-gender="female">
 
@@ -116,6 +154,22 @@
                     <h3 class="card-h3">White Wedding Gown</h3>
                     <p class="men-size">size [6-18]</p>
                     <p class="price"><span class="kes">KSH</span> 7500</p>
+                    <a href="#" class="calender">Check date</a>
+                </div>
+
+            </article>
+
+            <article data-category="wedding" data-gender="female">
+
+                <div class="card-media">
+                    <span class="filter-tag">Weddings</span>
+                    <img src="assets/gown-cards/Cultural Wedding Dress.png" alt="Cultural wedding dress">
+                </div>
+
+                <div class="info">
+                    <h3 class="card-h3">Cultural wedding dress</h3>
+                    <p class="men-size">size [6-18]</p>
+                    <p class="price"><span class="kes">KSH</span> 7900</p>
                     <a href="#" class="calender">Check date</a>
                 </div>
 
@@ -141,7 +195,7 @@
             </article>
 
 
-            <article data-category="birthday" data-gender="female">
+            <article data-category="birthday" data-gender="child">
 
                 <div class="card-media">
                     <span class="filter-tag">Birthday</span>
