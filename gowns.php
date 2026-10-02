@@ -229,6 +229,72 @@
 
             </article>
 
+
+            <!-- + graduation card -->
+
+            <article data-category="graduation" data-gender="male">
+
+                <div class="card-media">
+                    <span class="filter-tag">Graduation</span>
+                    <img src="assets/gown-cards/graduation.png" alt="Graduation gown">
+                </div>
+
+                <div class="info">
+                    <h3 class="card-h3">Graduation Gown</h3>
+                    <p class="men-size">size [ all sizes available ]</p>
+                    <p class="price"><span class="kes">KSH</span> 4900</p>
+                    <a href="#" class="calender">Check date</a>
+                </div>
+
+            </article>
+
+            <article data-category="graduation" data-gender="female">
+
+                <div class="card-media">
+                    <span class="filter-tag">Graduation</span>
+                    <img src="assets/gown-cards/graduation-styled.png" alt="Graduation styled gown">
+                </div>
+
+                <div class="info">
+                    <h3 class="card-h3">Graduation Gown</h3>
+                    <p class="men-size">size [ all sizes available ]</p>
+                    <p class="price"><span class="kes">KSH</span> 4900</p>
+                    <a href="#" class="calender">Check date</a>
+                </div>
+
+            </article>
+
+            <article data-category="graduation" data-gender="child">
+
+                <div class="card-media">
+                    <span class="filter-tag">Graduation</span>
+                    <img src="assets/gown-cards/graduation-girl.png" alt="Graduation child gown">
+                </div>
+
+                <div class="info">
+                    <h3 class="card-h3">Graduation Gown</h3>
+                    <p class="men-size">size [ all sizes available ]</p>
+                    <p class="price"><span class="kes">KSH</span> 1900</p>
+                    <a href="#" class="calender">Check date</a>
+                </div>
+
+            </article>
+
+            <article data-category="graduation" data-gender="child">
+
+                <div class="card-media">
+                    <span class="filter-tag">Graduation</span>
+                    <img src="assets/gown-cards/graduation-boy.png" alt="Graduation child gown">
+                </div>
+
+                <div class="info">
+                    <h3 class="card-h3">Graduation Gown</h3>
+                    <p class="men-size">size [ all sizes available ]</p>
+                    <p class="price"><span class="kes">KSH</span> 1900</p>
+                    <a href="#" class="calender">Check date</a>
+                </div>
+
+            </article>
             
         </section>
 
