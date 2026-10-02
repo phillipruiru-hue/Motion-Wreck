@@ -8,6 +8,7 @@ const cards = document.querySelectorAll('.gowns-cards article');
 const noResults = document.getElementById('no-results');
 const dropdowns = document.querySelectorAll('.dropdown');
 
+
 /* ---------- 1. show or hide the cards ---------- */
 
 function applyFilters() {

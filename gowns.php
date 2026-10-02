@@ -20,6 +20,7 @@
         </section>
 
         <!-- DESKTOP FILTER (hidden on mobile by CSS) -->
+
         <section id="filter">
 
             <div class="gowns-t">
@@ -44,6 +45,7 @@
         </section>
 
         <!-- MOBILE FILTER (hidden on desktop by CSS) -->
+
         <section class="filter-mobile">
 
             <div class="gowns-mobile-filter">
@@ -82,13 +84,14 @@
         </section>
 
         <!-- CARDS: each one needs data-category and data-gender -->
+
         <section class="gowns-cards">
 
             <article data-category="corporates" data-gender="male">
 
                 <div class="card-media">
                     <span class="filter-tag">Corporates</span>
-                    <img src="assets/wedding.jpg" alt="Official suit">
+                    <img src="assets/gown-cards/Official Suit.png" alt="Official suit">
                 </div>
 
                 <div class="info">

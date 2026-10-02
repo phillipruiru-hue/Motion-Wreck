@@ -28,7 +28,7 @@
         </li>
 
         <li>
-            <a href="#">Gowns for Hire</a>
+            <a href="gowns.php">Gowns for Hire</a>
         </li>
 
         <li>
@@ -64,7 +64,8 @@
                     <li><a href="#">Video</a></li>
                 </ul>
             </li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="gowns.php">Gowns for Hire</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
         </ul>
         
     </div>
