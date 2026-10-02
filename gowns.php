@@ -103,6 +103,79 @@
 
             </article>
 
+            <!-- + another card -->
+
+            <article data-category="wedding" data-gender="female">
+
+                <div class="card-media">
+                    <span class="filter-tag">Weddings</span>
+                    <img src="assets/gown-cards/White Wedding Gown.png" alt="White wedding gown">
+                </div>
+
+                <div class="info">
+                    <h3 class="card-h3">White Wedding Gown</h3>
+                    <p class="men-size">size [6-18]</p>
+                    <p class="price"><span class="kes">KSH</span> 7500</p>
+                    <a href="#" class="calender">Check date</a>
+                </div>
+
+            </article>
+
+            
+            <!-- + Birthday card -->
+
+            <article data-category="birthday" data-gender="female">
+
+                <div class="card-media">
+                    <span class="filter-tag">Birthday</span>
+                    <img src="assets/gown-cards/Birthday.png" alt="Birthday gown">
+                </div>
+
+                <div class="info">
+                    <h3 class="card-h3">Birthday Gown</h3>
+                    <p class="men-size">size [m , l , xl , 2xl ]</p>
+                    <p class="price"><span class="kes">KSH</span> 3400</p>
+                    <a href="#" class="calender">Check date</a>
+                </div>
+
+            </article>
+
+
+            <article data-category="birthday" data-gender="female">
+
+                <div class="card-media">
+                    <span class="filter-tag">Birthday</span>
+                    <img src="assets/gown-cards/Birthday-child.png" alt="Birthday gown">
+                </div>
+
+                <div class="info">
+                    <h3 class="card-h3">Birthday Gown-Children</h3>
+                    <p class="men-size">size [m , l , xl]</p>
+                    <p class="price"><span class="kes">KSH</span> 1900</p>
+                    <a href="#" class="calender">Check date</a>
+                </div>
+
+            </article>
+                        
+            <!-- + Familly shoot card -->
+
+            <article data-category="family" data-gender="everyone">
+
+                <div class="card-media">
+                    <span class="filter-tag">Familly Shoot</span>
+                    <img src="assets/gown-cards/family.png" alt="Familly shoot gown">
+                </div>
+
+                <div class="info">
+                    <h3 class="card-h3">Familly Shoot Gown</h3>
+                    <p class="men-size">size [ all sizes available ]</p>
+                    <p class="price"><span class="kes">KSH</span> 3400</p>
+                    <a href="#" class="calender">Check date</a>
+                </div>
+
+            </article>
+
+            
         </section>
 
         <p id="no-results" class="gowns-intro" hidden>No gowns match these filters yet. Try another category.</p>
